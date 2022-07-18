@@ -1,0 +1,36 @@
+package aulas;
+
+public class PrimeiroExercicio {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int numeroum = 1;
+		double numerodois = 13.5;
+		String minhaString = "Elliel Kassio";
+		char sexo = 'M';
+		boolean verdadeiro = true;
+		boolean falso = false;
+		
+		System.out.println(numeroum);
+		System.out.println(numerodois);
+		System.out.println(minhaString);
+		System.out.println(sexo);
+		System.out.println(verdadeiro);
+		System.out.println(falso);
+		
+		/*
+		 * System.out.println(Nome
++ “ tem “ + idade + “ anos , e tem ” + 
+dinheiro +“ reais”);
+		 */
+
+		String nome = "Elliel Kassio";
+		int idade = 23;
+		double dinheiro = 0.25;
+		
+		System.out.print(nome + " tem " + idade + 
+				" anos, e tem " + dinheiro + " reais");
+	}
+
+}
