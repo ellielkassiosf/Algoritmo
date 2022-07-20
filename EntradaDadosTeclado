@@ -13,7 +13,7 @@ public class EntradaDadosTeclado {
 		String nome;
 		int idade;
 		char sexo;
-		double x = 0.0;
+		double SaldoConta = 0.0;
 		
 		System.out.println("Entre com nome de usuário: ");
 		nome = leia.nextLine();
@@ -26,10 +26,10 @@ public class EntradaDadosTeclado {
 		
 		
 		System.out.println("Insira saldo bancário: ");
-		x =  leia.nextDouble();
+		SaldoConta =  leia.nextDouble();
 		
 		System.out.print(nome + " tem " + idade +  " anos e seu sexo é " + sexo + 
-				" e tem o saldo bancário de " + x + " reais");
+				" e tem o saldo bancário de " + SaldoConta + " reais");
 		
 		
 		leia.close();
