@@ -11,7 +11,7 @@ public class EntradaDadosTeclado {
 		Scanner leia = new Scanner (System.in). useLocale (Locale.US);
 		
 		String nome;
-		int idade;
+		int idade = 0;
 		char sexo;
 		double SaldoConta = 0.0;
 		
