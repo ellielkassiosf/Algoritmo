@@ -11,15 +11,15 @@ public class EntradaDadosTeclado {
 		Scanner leia = new Scanner (System.in). useLocale (Locale.US);
 		
 		String nome;
-		int numero;
+		int idade;
 		char sexo;
-		double x = 10.25;
+		double x = 0.0;
 		
 		System.out.println("Entre com nome de usuário: ");
 		nome = leia.nextLine();
 		
 		System.out.println("Entre com idade: ");
-		numero = leia.nextInt();
+		idade = leia.nextInt();
 		
 		System.out.println("Entre com Sexo: ");
 		sexo = leia.next().charAt(0);
@@ -28,7 +28,7 @@ public class EntradaDadosTeclado {
 		System.out.println("Insira saldo bancário: ");
 		x =  leia.nextDouble();
 		
-		System.out.print(nome + " tem " + numero +  " anos e seu sexo é " + sexo + 
+		System.out.print(nome + " tem " + idade +  " anos e seu sexo é " + sexo + 
 				" e tem o saldo bancário de " + x + " reais");
 		
 		
