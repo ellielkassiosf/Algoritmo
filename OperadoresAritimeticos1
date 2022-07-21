@@ -30,6 +30,7 @@ public class Operadores {
 		System.out.println( valor1 + valor2);
 		resultado = leia.nextDouble();
 		
+		
 		leia.close();
 		
 	}
