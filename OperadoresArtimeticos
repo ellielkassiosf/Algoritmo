@@ -11,7 +11,7 @@ public class Operadores {
 		Scanner leia = new Scanner (System.in). useLocale (Locale.US);
 		
 /*
- * Faça um Programa que peça dois números e imprima a soma;
+ * Faça um Programa que peça dois números e imprima a soma ;
  */
  
 		double valor1 = 0.0;
