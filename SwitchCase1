@@ -1,0 +1,47 @@
+package aulas;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class SwitchCase1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+/*
+ * 
+1 - sanduiche natureba
+2 - Sanduba Bomba
+3 - Coxinha de Jaca
+4 - Feijoada vegetariana
+
+ */
+		
+		Scanner leia = new Scanner (System.in). useLocale (Locale.US);
+		
+	
+		
+		System.out.println("Escolha um item: ");
+		int numero = leia.nextInt();
+		String pedido = leia.nextLine();
+		
+		
+		switch (numero) {
+		case 1:
+			System.out.println("você escolheu 1 Sanduiche Natureba");
+			break;
+			
+		case 2:
+			System.out.println("você escolheu 1 Sanduba Bomba");
+		
+		case 3:
+			System.out.println("você escolheu 1 Coxinha de Jaca");
+			
+		case 4 :
+			System.out.println("você escolheu 1 Feijoada vegetariana");
+			default: 
+				System.out.println("não temos esse item no momento," + "não temos essa quantidade");
+				break;
+				
+	}
+System.out.println("Você saiu do menu!");
+	}}
