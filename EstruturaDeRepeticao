@@ -1,0 +1,32 @@
+package aulas;
+
+import java.util.Scanner;
+
+public class Exercicio {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner sc = new Scanner (System.in);
+		
+		System.out.println("----- Pesquisa -----");
+		System.out.println("(13) Lula Molusco");
+		System.out.println("(12) Ciro Louco");
+		System.out.println("(17) Bozo Nelson");
+		System.out.println("(50) Bolos Bolinho");
+		System.out.println("(0) Branco ou Nulo");
+		System.out.println("----- Pesquisa -----");
+		
+		int voto= sc.nextInt();
+		
+		while(voto>=0) {
+			System.out.println("Voto confirmado!");
+			voto =sc.nextInt();
+		}
+		System.out.println("Programa finalizado!");
+    
+    sc.close();
+    
+	}
+
+}
