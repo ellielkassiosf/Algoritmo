@@ -28,6 +28,10 @@ public class Exercicio {
 				System.out.println("Voto em Bozo Nelson computado!");
 			}else if (voto==50) {
 				System.out.println("Voto em Bolos Bolinho computado!");
+			}else if (voto==0) {
+				System.out.println("Voto Branco ou Nulo computado!");
+			}else {
+				System.out.println("Candidato inexistente!");
 			}
 			System.out.println("Em quem você deseja votar para presidente?");
 			voto =sc.nextInt();
