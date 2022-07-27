@@ -20,13 +20,19 @@ public class Exercicio {
 		int voto= sc.nextInt();
 		
 		while(voto>=0) {
-			System.out.println("Voto confirmado!");
+			if (voto==13) {
+				System.out.println("Voto em Lula Molusco computado!");
+			}else if (voto==12) {
+				System.out.println("Voto em Ciro Louco computado!");
+			}else if (voto==17) {
+				System.out.println("Voto em Bozo Nelson computado!");
+			}else if (voto==50) {
+				System.out.println("Voto em Bolos Bolinho computado!");
+			}
+			System.out.println("Em quem você deseja votar para presidente?");
 			voto =sc.nextInt();
 		}
 		System.out.println("Programa finalizado!");
-    
-    sc.close();
-    
 	}
 
 }
