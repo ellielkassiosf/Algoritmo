@@ -18,25 +18,56 @@ public class Exercicio {
 		System.out.println("----- Pesquisa -----");
 		
 		int voto= sc.nextInt();
+		int votosLulaMolusco =0;
+		int votosCiroLouco=0;
+		int votosBozoNelson=0;
+		int votosBolosBolinho=0;
+		int votosBrancoNulo=0;
+		int votoTotal=0;
 		
 		while(voto>=0) {
 			if (voto==13) {
+				votosLulaMolusco++;
 				System.out.println("Voto em Lula Molusco computado!");
 			}else if (voto==12) {
+				votosCiroLouco++;
 				System.out.println("Voto em Ciro Louco computado!");
 			}else if (voto==17) {
+				votosBozoNelson++;
 				System.out.println("Voto em Bozo Nelson computado!");
 			}else if (voto==50) {
+				votosBolosBolinho++;
 				System.out.println("Voto em Bolos Bolinho computado!");
 			}else if (voto==0) {
+				votosBrancoNulo++;
 				System.out.println("Voto Branco ou Nulo computado!");
 			}else {
 				System.out.println("Candidato inexistente!");
 			}
+			if(voto == 12 || voto == 13 || voto == 17 || voto == 50 || voto == 0) {
+			votoTotal++;
+			
 			System.out.println("Em quem você deseja votar para presidente?");
+			System.out.println("Digite (-1) para sair");
 			voto =sc.nextInt();
+			
 		}
-		System.out.println("Programa finalizado!");
-	}
+		System.out.println("---Resultado---");
+		System.out.println("Total = "+votoTotal+" = 100%"); 
+		int porcLula = (100*votosLulaMolusco)/votoTotal;
+		System.out.println("Lula Molusco = " +porcLula+"%");
+		System.out.println("Ciro Louco = ");
+		int porcCiro = (100*votosCiroLouco)/votoTotal;
+		System.out.println("Ciro Louco = " +porcCiro+"%");
+		System.out.println("Bozo Nelson = ");
+		int porcBozo = (100*votosBozoNelson)/votoTotal;
+		System.out.println("Bozo Nelson = " +porcBozo+"%");
+		System.out.println("Bolos Bolinho = ");
+		int porcBolos = (100*votosCiroLouco)/votoTotal;
+		System.out.println("Bolos Bolinho = " +porcBolos+"%");
+		int porcBrancoNulo = (100*votosBrancoNulo)/votoTotal;
+		System.out.println("Votos em branco ou Nulo: " + porcBrancoNulo+"%");
+	;
+		}
 
-}
+}}
