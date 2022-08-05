@@ -1,0 +1,82 @@
+package atividadeHerois;
+
+public class Principal {
+
+	
+	private String indentidadeSecreta;
+	private String universoPertencente;
+	private String nomeDeHeroi;
+	private String planetaNatal;
+	private String pertenceAoGrupoLiga;
+	private String cidadeNatal;
+	private String baseSecreta;
+	private String superPoderes;
+	private int idade;
+	private boolean estaNaAtiva;
+	public String getIndentidadeSecreta() {
+		return indentidadeSecreta;
+	}
+	public void setIndentidadeSecreta(String indentidadeSecreta) {
+		this.indentidadeSecreta = indentidadeSecreta;
+	}
+	public String getUniversoPertencente() {
+		return universoPertencente;
+	}
+	public void setUniversoPertencente(String universoPertencente) {
+		this.universoPertencente = universoPertencente;
+	}
+	public String getNomeDeHeroi() {
+		return nomeDeHeroi;
+	}
+	public void setNomeDeHeroi(String nomeDeHeroi) {
+		this.nomeDeHeroi = nomeDeHeroi;
+	}
+	public String getPlanetaNatal() {
+		return planetaNatal;
+	}
+	public void setPlanetaNatal(String planetaNatal) {
+		this.planetaNatal = planetaNatal;
+	}
+	public String getPertenceAoGrupoLiga() {
+		return pertenceAoGrupoLiga;
+	}
+	public void setPertenceAoGrupoLiga(String pertenceAoGrupoLiga) {
+		this.pertenceAoGrupoLiga = pertenceAoGrupoLiga;
+	}
+	public String getCidadeNatal() {
+		return cidadeNatal;
+	}
+	public void setCidadeNatal(String cidadeNatal) {
+		this.cidadeNatal = cidadeNatal;
+	}
+	public String getBaseSecreta() {
+		return baseSecreta;
+	}
+	public void setBaseSecreta(String baseSecreta) {
+		this.baseSecreta = baseSecreta;
+	}
+	public String getSuperPoderes() {
+		return superPoderes;
+	}
+	public void setSuperPoderes(String superPoderes) {
+		this.superPoderes = superPoderes;
+	}
+	public int getIdade() {
+		return idade;
+	}
+	public void setIdade(int idade) {
+		this.idade = idade;
+	}
+	public boolean isEstaNaAtiva() {
+		return estaNaAtiva;
+	}
+	public void setEstaNaAtiva(boolean estaNaAtiva) {
+		this.estaNaAtiva = estaNaAtiva;
+	}
+	public Principal() {
+		
+		
+	}
+	
+	
+}
